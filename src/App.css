@@ -8,7 +8,7 @@ body {
   background: url(../public/bg-top.svg) no-repeat, hsl(240, 78%, 98%);
   background-size: 28em;
   background-position: 45dvw -2em;
-  font-family: 'Montse';
+  font-family: 'Montse', sans-serif;
   min-height: 93dvh;
 }
 
