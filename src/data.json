@@ -1,0 +1,26 @@
+[
+    {
+    "name": "Basic",
+    "monthly_price": 19.99,
+    "annual_price": 199.99,
+    "storage": "500 GB",
+    "users_allowed": 2,
+    "send_limit": "3 GB"
+    },
+    {
+    "name": "Professional",
+    "monthly_price": 24.99,
+    "annual_price": 249.99,
+    "storage": "1 TB",
+    "users_allowed": 5,
+    "send_limit": "10 GB"
+    },
+    {
+    "name": "Master",
+    "monthly_price": 39.99,
+    "annual_price": 399.99,
+    "storage": "2 TB",
+    "users_allowed": 10,
+    "send_limit": "20 GB"
+    }
+]

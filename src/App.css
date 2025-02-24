@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family: 'Montse';
+  src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+body {
+  background: url(../public/bg-top.svg) no-repeat, hsl(240, 78%, 98%);
+  background-size: 28em;
+  background-position: 45dvw -2em;
+  font-family: 'Montse';
+  min-height: 93dvh;
+}
+
+@media screen and (width >= 768px) {
+  body {
+    background: url(../public/bg-top.svg) no-repeat, hsl(240, 78%, 98%);
+    background-size: 30em;
+    background-position: 60dvw -2em;
+  }
+}
+
+@media screen and (width >= 1024px) {
+  body {
+    background: url(../public/bg-top.svg) no-repeat, url(../public/bg-bottom.svg) no-repeat, hsl(240, 78%, 98%);
+    background-size: 25em, 25em;
+    background-position: right top, left bottom;
+  }
+}
